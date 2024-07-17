@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
@@ -69,7 +70,7 @@ function Levels() {
         {/* navigation */}
         <div className=" p-2  flex justify-between ">
           <span className="flex  mt-2 sm:flex ">
-            <IoArrowBackCircleOutline size="30" className="cursor-pointer" />
+            <Link to="/stages/"><IoArrowBackCircleOutline size="30" className="cursor-pointer" /></Link>
             <p className="  text-md font-medium sm:text-sm sm:font-base ">
               Stage-1 {">"}Levels
             </p>
